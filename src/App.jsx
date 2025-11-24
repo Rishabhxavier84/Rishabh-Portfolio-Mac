@@ -1,4 +1,4 @@
-import { Hero, Navbar } from "#Components"
+import { Hero, Navbar, Dock } from "#Components";
 import React from 'react'
 
 const App = () => {
@@ -6,6 +6,7 @@ const App = () => {
     <main>
       <Navbar />
       <Hero />
+      <Dock />
     </main>
   )
 }
