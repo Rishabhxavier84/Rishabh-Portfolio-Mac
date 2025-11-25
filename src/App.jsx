@@ -2,8 +2,7 @@ import { Hero, Navbar, Dock } from "#Components";
 import React from 'react'
 import { gsap } from "gsap";
 import { Draggable } from "gsap/all";
-import Terminal from "#windows/Terminal";
-import Safari from "#windows/Safari";
+import { Resume,Safari,Terminal } from "#windows";
 
 
 gsap.registerPlugin(Draggable);
@@ -17,8 +16,9 @@ const App = () => {
 
       <Terminal />
       <Safari />
+      <Resume />
     </main>
   )
 }
-//1:44
+//2:16
 export default App
