@@ -31,7 +31,7 @@ const WindowWrapper = (Component, windowKey) => {
         focusWindow(windowKey)
       }})
 
-      return instance.kill()
+      return () => instance.kill()
     }, [])
 
     useLayoutEffect(() => {
