@@ -16,7 +16,7 @@ const App = () => {
       <Dock />
 
       <Terminal />
-      {/* <Safari /> */}
+      <Safari />
     </main>
   )
 }
