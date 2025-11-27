@@ -1,9 +1,8 @@
 import { Hero, Navbar, Dock } from "#Components";
-import React from 'react'
+import React from "react";
 import { gsap } from "gsap";
 import { Draggable } from "gsap/all";
-import { Resume,Safari,Terminal } from "#windows";
-
+import { Finder, Resume, Safari, Terminal } from "#windows";
 
 gsap.registerPlugin(Draggable);
 
@@ -17,8 +16,9 @@ const App = () => {
       <Terminal />
       <Safari />
       <Resume />
+      <Finder />
     </main>
-  )
-}
+  );
+};
 //2:16
-export default App
+export default App;
