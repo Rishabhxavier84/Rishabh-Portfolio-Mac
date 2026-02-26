@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -13,6 +13,7 @@
     "@gsap/react": "^2.1.2",
     "@tailwindcss/vite": "^4.1.17",
     "clsx": "^2.1.1",
+    
     "dayjs": "^1.11.19",
     "gsap": "^3.13.0",
     "immer": "^11.0.0",
